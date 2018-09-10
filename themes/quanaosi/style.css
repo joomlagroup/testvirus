@@ -1,0 +1,231 @@
+/*
+Theme Name: quanaosi
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+body{font-size:14px !important}
+.nav > li > a{font-size:14px;font-weight: 500;color:#222226}
+.header-bottom .nav > li{margin: 0}
+.header-bottom .nav > li > a{padding-right: 20px; padding-left: 20px;}
+.header-bottom .nav > li:hover > a{background: #6CCEE5;color: #fff}
+.box-text{font-size:1em}
+.tabbed-content .nav, .tabbed-content .tab-panels{
+	border-bottom:1px solid #ddd;
+	margin-bottom: 10px;
+}
+.header-bottom .container{background: #fafafa;border-top: 2px solid #333;}
+.nav-line-bottom>li>a:before, .nav-line-grow>li>a:before, .nav-line>li>a:before{
+	height:1px !important;
+	
+}
+.header-main .header-inner{justify-content: center;}
+.tabbed-content ul li a{font-size:16px}
+#footer ul li:before{
+	content:url(images/next.png)
+}
+#footer ul li{border:0 !important}
+.widget .is-divider{display:none}
+span.widget-title{
+	display: block;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+	font-weight:300 !important;
+	    margin-bottom: 25px;
+}
+span.widget-title:after{
+	    width: 70px;
+    height: 1px;
+    content: " ";
+    background: #222;
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+}
+.info_wrapper {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    left: 10px;
+    text-align: left;
+    padding: 15px 20px 10px;
+    background-color: rgba(34,34,34,.8);
+    color: #fff;
+    transition: bottom 400ms;
+}
+.info_wrapper span {
+    position: absolute;
+    padding: 5px 10px;
+    height: 30px;
+    top: -30px;
+    left: 0;
+    z-index: 1;
+}
+.info_wrapper span:before{
+	background-color: #cf6163;
+	    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .9;
+}
+.banner-inner:hover .info_wrapper {
+    bottom: 0;
+    transition: bottom 400ms;
+}
+.banner-inner {overflow:hidden}
+.button.is-outline {
+    line-height: 2.5em;
+}
+.button.is-outline, input[type='submit'].is-outline, input[type='reset'].is-outline, input[type='button'].is-outline{
+	border: 1px solid currentColor;
+}
+.banner h3 {
+    font-size: 1.5em;
+}
+.banner h6, .banner h5, .banner p {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.product-small .col-inner{border:1px solid #ddd}
+.product-small .col-inner .box-text{padding:15px}
+.badge-container {
+	right: 0;
+    left: unset;
+}
+.contactinfo {
+    border:  1px dashed #ec4a96;
+    padding: 20px 8px 20px 11px;
+	font-size:24px;
+}
+.product-info .is-divider{
+	    height: 1px;
+    margin: 1em 0 2em;
+}
+.contactinfo .phone {
+    font-size: 21px;
+    color: red;
+}
+.absolute-footer .container{border-top: 2px solid #333;padding-top:15px;}
+
+/*Product*/
+.product-short-description{margin-top: 30px}
+h1.product-title.entry-title{font-size:2.7em}
+
+/*Testimonial*/
+.khachang .single-item-wrapper{text-align:left}
+.khachang .tss-carousel h3.author-name{
+	font-size:16px;
+	font-weight:600;
+	text-align:left
+}
+.khachang .owl-prev, .khachang .owl-next{
+	   height: 30px !important;
+    width: 30px !important;
+    border-radius: 0 !important;
+    line-height: 30px !important; 
+	border:1px solid #e5e5e5;
+	padding:0 !important;
+	margin:0 !important;
+}
+.khachang  .tss-wrapper .owl-controls .dashicons {
+	width: 30px  !important;
+    height: 30px  !important;
+    font-size: 20px  !important;
+    line-height: 30px  !important;
+}
+.tss-wrapper .owl-theme .owl-nav .owl-prev{padding:0 !important; margin:0 !important}
+.dashicons-arrow-left-alt2:before, .dashicons-arrow-right-alt2:before{color:#333}
+.tss-wrapper .tss-carousel1 .item-content-wrapper .item-content {
+    width: 100%;
+    font-style: normal !important;
+    color: #696969;
+	padding-top:5px;
+	line-height: 21px;
+}
+.khachang .owl-prev {
+    top: -40px !important;
+    left: unset !important;
+    right: 35px !important;
+}
+.khachang .owl-next {top: -40px !important;}
+.box-heading {
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.box-heading:after{
+    width: 70px;
+    height: 1px;
+    content: " ";
+    background: #222;
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+}
+
+/*Fixed menu*/
+.fixed-menuhome{
+	left: 0;
+    top: 50%;
+	position: fixed;
+	    background: #cf6163;
+    z-index: 99999;
+    padding: 5px;
+}
+.fixed-menuhome a.tooltipstered {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    color: #fff;
+    display: block;
+}
+.fixed-menuhome li:last-child{margin-bottom: 0}
+a.tooltipstered:hover {
+    background: #6CCEE5;
+    transition: all ease 0.5s;
+}
+.footer-secondary{padding:0}
+.footer-primary.pull-left{
+	height:38px;
+	line-height:38px
+}
+/*Reponsive*/
+@media screen and (max-width: 480px){
+    .fixed-menuhome{display: none;}
+}
+@media screen and (min-width: 850px){
+	.large-4 .res-text {
+		font-size: 14px;
+	}
+	.single-product .social-icons{display:none}
+}
+
+@media screen and (max-width: 849px){
+    #footer, #footer .social-icons,#footer h3, #footer p{text-align: center !important;}
+    #footer ul.menu>li, .widget>ul>li{display: inline-block;}
+    span.widget-title:after{left: calc(50% - 40px)}
+    #footer ul.menu>li+li a {
+        padding: 0 10px !important;
+        border-right: 1px solid #ccc;
+        line-height: 12px;
+    }
+    #footer ul li:before {
+        display: none;
+    }
+    #logo{width: 100% !important;    padding: 10px 0;}
+}
+.page-title{background: #f9f9fb;    margin-top: 20px;}
+.page-title-inner{padding-top: 0; min-height: 36px !important}
